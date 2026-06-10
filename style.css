@@ -1,0 +1,39 @@
+.accordion {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+.accordion__item {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion__header {
+  width: 100%;
+  text-align: left;
+  padding: 15px;
+  font-size: 16px;
+  background: #f7f7f7;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.accordion__header:hover {
+  background: #eaeaea;
+}
+
+.accordion__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 15px;
+}
+
+.accordion__content p {
+  margin: 15px 0;
+}
+
+.accordion__header.active {
+  background: #ddd;
+}
