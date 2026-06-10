@@ -10,7 +10,10 @@
     list-style: none;
     padding: 0;
     margin: 0;
-	text-align:center;
+}
+
+.uicomponents li{
+    margin: 0 auto;
 }
 
 .uicomponents li a {
